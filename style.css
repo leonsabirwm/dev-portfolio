@@ -1,0 +1,312 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.initial{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.init-d{
+
+    display: flex;
+}
+#landing-image{
+    width: 100%;
+    
+}
+    .landing-image{
+        padding-left: 60px;
+
+    }
+
+
+.img-except{
+    position: relative;
+    top: 80px;
+}
+.focus-h{
+    font-size: 26px;
+    word-spacing: 3px;
+    font-weight: bolder;  
+    
+}
+.dark-blue{
+    color:#442ea3;
+}
+section{
+
+    margin-left: 15%;
+    font-size: 18px;
+    font-weight: 25px;
+    word-spacing: 3px;
+    
+    
+}
+#link-one{
+    text-decoration: none;
+    background-image: linear-gradient(#9B6EB4,#485C99);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 4px;
+}
+.link-one{
+    margin-top: 40px;
+}
+.exp-down{
+    font-weight: 20px;
+    
+}
+  .initiallr{
+     border-left: 7px solid black;
+    border-image:linear-gradient(#9B6EB4,#485C99);
+    border-image-slice: 1;
+    padding-left: 10px;  
+
+} 
+
+
+/* .initiallr::before{
+   content: ""; border-left: 7px solid black;
+    border-image:linear-gradient(#9B6EB4,#485C99);
+    border-image-slice: 1;
+    padding-left: 10px; 
+    z-index: 1;
+    border-radius: 5px;
+    width: 0;
+
+} */
+
+
+
+/*second section starts from here*/
+
+.year{
+    color: #00BCB1;
+}
+#sec-h{
+    
+    font-size: 45px;
+    position: relative;
+    left: 300px;
+    
+}
+.main-sec{
+    display: flex;
+   
+}
+.ofsec-1{
+    background-color: #F1F1E6;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+   right: 80px;
+}
+.ofsec-2{
+    background-color: #B2DBFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+
+}
+.ofsec-3{
+    background-color: #FFF7D6;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+   left: 40px;
+    
+}
+.main-sec{
+    position: relative;
+    left:70px;
+
+    width:80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main-sec div img{
+    width: 50%;
+    position: relative;
+    left: 50px;
+
+}
+.main-sec div{
+    margin-left: 30px;
+    border-radius: 20px;
+}
+/*Third section starts from here*/
+
+.sec-trd img{
+width:80%;
+position: relative;
+top: 50px;
+
+
+
+}
+
+.trd-img{
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+#link-two{
+    text-decoration: none;
+    border-radius: 10px;
+    background-image:linear-gradient(#9ba3a7,#8eb6a7);
+    color : white;
+    padding: 10px 25px;
+}
+
+.middle_v{
+    display: flex;
+    flex-direction: row;
+}
+.trd-txt{
+    position: relative;
+    top: 20px;
+
+padding-left: 80px;
+
+
+
+}
+.txt-onm{
+    font-size: 40px;
+    margin-bottom: 35px;
+    padding: 10px;
+    
+}
+.trd-txt p{
+    margin-bottom: 25px;
+}
+ .sec-trd{ 
+    background-image: url(essens/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    height: 500px;
+    margin-left: 35px;
+   background-position: left;
+ }
+
+
+.sec-trd{
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/*this is section four*/
+
+.frouth-img img{
+    width:70%;
+}
+
+.fourth_v {
+    
+    display: flex;
+    
+
+}
+.fourth_v div{
+    width: 50%;
+    
+}
+.frouth-img{
+    margin-left: 120px;
+    position: relative;
+top: 90px;
+left: 50px;
+}
+.fourth-txt{
+    margin-left: 40px;
+    padding left: 40px;
+    padding right: 40px;
+    
+}
+#link-four{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-image: linear-gradient(#e29b94,#e4a49e);
+    color: white;
+    margin-top: 15px;
+}
+.fourth-txt p{
+    margin-bottom: 30px;
+
+}
+.fourth-sec{
+    margin-bottom: 200px;
+    background-image: url(essens/shape-1.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    margin-right: 90px;
+
+}
+/* About section styling */
+.d-about{
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+.d-about div{
+    width: 50%;
+}
+.d-about img{
+    width: 90%;
+}
+.about-txt{
+    padding-right: 70px;
+}
+.span-abt{
+    color: #FA725C;
+
+}
+.about-txt h1{
+    font-size: 40px;
+
+}
+.work-link{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-image: linear-gradient(#FA725c,#FA725c);
+    border-radius: 10px;
+}
+.about-txt p{
+    margin-bottom: 40px;
+}
+/*styling for the footer section*/
+footer{
+    color: rgb(233, 229, 229);
+    background-color: black;
+    left: 0;bottom:0;
+    position: absolute;
+    bottom: inherit;
+    width:100%
+
+   
+}
+.f-h{
+    position: relative;
+    top: 50px;
+    left: 550px;
+    margin-bottom: 80px;
+
+}
+.f-p{
+    position: relative;
+    left: 510px;
+    margin-bottom: 40px;
+}
+.tom-m{
+    color: #FA725c;
+}
